@@ -5,30 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Social links profile</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  
+  <title>Social links profile</title>
+
 </head>
 <body>
 
-  Jessica Randall
-  London, United Kingdom
-  "Front-end developer and avid reader."
+  <main>
+    <div id="main-container" class="d-flex flex-column align-items-center p-5 gap-3 position-absolute top-50 start-50 translate-middle">
+      <img id="profile-picture" src="assets/images/avatar-jessica.jpeg" alt="">
+      <p id="name-text">Jessica Randall</p>
+      <p id="location-text">London, United Kingdom</p>
+      <p id="description-text">"Front-end developer and avid reader."</p>
+      <button id="github" class="hvr-grow link-button">Github</button>
+      <button id="frontend-mentor" class="hvr-grow link-button">Frontend Mentor</button>
+      <button id="linkedin" class="hvr-grow link-button">Linkedin</button>
+      <button id="twitter" class="hvr-grow link-button">Twitter</button>
+      <button id="instagram" class="hvr-grow link-button">Instagram</button>
+    </div>
+  </main>
 
-  GitHub
-  Frontend Mentor
-  LinkedIn
-  Twitter
-  Instagram
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
